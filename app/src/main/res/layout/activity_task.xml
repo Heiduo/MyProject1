@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/DividerLineGray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_view_height"
+        android:background="@color/White">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="情况记录"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/Black"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner_times"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/DividerLineGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="工作进展"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_task"
+            android:inputType="none"
+            android:layout_width="0.0dp"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/Black"
+            android:gravity="top"
+            android:maxLength="200"
+            android:hint="请输入相关进展"
+            android:maxLines="15"
+            android:minLines="10"
+            android:paddingBottom="15dp"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/DividerLineGray" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/DividerLineGray" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="教师意见"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_teacher_opinion"
+            android:layout_width="0.0dp"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:text=""
+            android:hint="请输入相关意见"
+            android:textColorHint="@color/AssistantGray"
+            android:textSize="16sp"
+            android:gravity="top"
+            android:maxLength="200"
+            android:maxLines="10"
+            android:minLines="5"
+            android:paddingBottom="15dp"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/DividerLineGray" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/DividerLineGray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_view_height"
+        android:background="@color/White"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="签字 : "
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/tv_teacher_signature"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="16sp"
+                android:hint="点击"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/Black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:text="时间 : "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:id="@+id/tv_task_date"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:text=""/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/DividerLineGray" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/DividerLineGray" />
+
+    <Button
+        android:id="@+id/bt_task_save"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/common_text_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/DividerLineGray" />
+
+</LinearLayout>

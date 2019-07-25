@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="project_type">
+        <item name = "1">科研项目</item>
+        <item name = "2">工程模拟</item>
+        <item name = "3">实际应用</item>
+        <item name = "4">自拟课题</item>
+    </string-array>
+
+    <string-array name="graduation_destination">
+        <item name = "1">出国</item>
+        <item name = "2">就业</item>
+        <item name = "3">考研</item>
+        <item name = "4">保研</item>
+        <item name = "5">其他</item>
+    </string-array>
+
+    <string-array name="project_stage">
+        <item name = "1">文献查阅</item>
+        <item name = "2">开题报告</item>
+        <item name = "3">外文翻译</item>
+        <item name = "4">需求分析</item>
+        <item name = "5">概要设计</item>
+        <item name = "6">详细设计</item>
+        <item name = "7">系统编码</item>
+        <item name = "8">系统测试</item>
+        <item name = "9">论文编写</item>
+        <item name = "10">答辩准备</item>
+    </string-array>
+
+    <string-array name="defence_type">
+        <item name = "1">正常答辩</item>
+        <item name = "2">延期答辩</item>
+    </string-array>
+
+    <string-array name="file_opinion">
+        <item name = "1">通过</item>
+        <item name = "2">适当修改</item>
+        <item name = "3">大幅修改</item>
+        <item name = "4"> </item>
+        <item name = "5">暂未上传</item>
+    </string-array>
+
+    <string-array name="paper_type">
+        <item name = "1">开题报告</item>
+        <item name = "2">外文翻译</item>
+        <item name = "3">毕业论文</item>
+    </string-array>
+    <string-array name="paper_type_path">
+        <item name = "1">open/</item>
+        <item name = "2">translation</item>
+        <item name = "3">paper</item>
+    </string-array>
+</resources>
