@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="body_color">#eaeff3</color>
-    <color name="light_gray">#cbcbcb</color>
-    <color name="gray_color">#999999</color>
-    <color name="cursor">#57bdeb</color>
-    <color name="live_bottom_gray">#666666</color>
-    <color name="allbackgroud">#f8f8f8</color>
-    <color name="secondbackgroud">#eeeeee</color>
-    <color name="transparent">#00000000</color>
-    <color name="main_color">#57bdeb</color>
-
-
-    <color name="Black">#000000</color>
-
-    <color name="CommonGray">#666666</color>
-
-    <color name="AssistantGray">#a0a0a0</color>
-
-    <color name="DividerLineGray">#cccccc</color>
-
-    <color name="BackgroundColor">#eaeef2</color>
-
-    <color name="White">#ffffff</color>
-
-    <color name="SpecialBlue">#007aff</color>
-    <color name="SpecialBluePressed">#66007aff</color>
-    <color name="SpecialOrange">#ff9703</color>
-    <color name="SpecialRed">#f03d58</color>
-    <color name="SpecialGreen">#1bbc9c</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
 </resources>

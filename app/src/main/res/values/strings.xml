@@ -1,34 +1,3 @@
 <resources>
-    <string name="app_name">毕设管理</string>
-    <!-- Strings related to login -->
-    <string name="prompt_email">用户帐号</string>
-    <string name="prompt_password">用户密码</string>
-    <string name="action_sign_in">登录或注册</string>
-    <string name="action_sign_in_short">登录</string>
-    <string name="error_invalid_email">邮箱格式不正确</string>
-    <string name="error_invalid_password">密码太短</string>
-    <string name="error_incorrect_password">密码不正确</string>
-    <string name="error_field_required">不能为空</string>
-    <string name="my_students">我的学生</string>
-    <string name="my_projects">毕设题目</string>
-
-    <string name="project_type1">科研项目</string>
-    <string name="project_type2">工程模拟</string>
-    <string name="project_type3">实际应用</string>
-    <string name="project_type4">自拟课题</string>
-
-    <string name="user_type_teacher">教师</string>
-    <string name="user_type_student">学生</string>
-
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
-    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
-    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
-    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
-    <string name="pull_to_refresh_refreshing_date" formatted="false">最后更新：%s</string>
+    <string name="app_name">UrlAndSql</string>
 </resources>
